@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Garet'; /* Nome personalizado da fonte */
+    src: url('fonts/garet.woff2') format('woff2'),
+         url('fonts/garet.woff') format('woff'),
+         url('fonts/garet.ttf') format('truetype'); /* Formatos da fonte */
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Garet', sans-serif;
+}
+
+:root {
+    --a-escuro: #050A30;
+    --a-claro: #70C2E8;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    background-color: var(--a-escuro);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    background-color: var(--a-escuro);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--a-claro);
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    margin: 1.5rem;
+}
+
+header a:hover {
+    color: #58b3ff;
+    transition: color 0.3s ease;
+}
+
+
+.p3 {
+    background-image: url('./imgs/img3-p1.3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--a-claro);
+}
+
+.p3 h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+/* Seção de Gráfico e Texto */
+.p3-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--a-claro);
+    padding: 4rem 2rem;
+    text-align: center;
+    height: 100vh;
+}
+
+.p3-2 p {
+    font-weight: 600;
+    font-size: 4rem;
+    width: 80rem;
+    color: var(--a-escuro);
+    margin-bottom: 1rem;
+}
+
+.p3-2 img {  
+
+    height: 55rem;
+}
+
+/* Seção do K-pop */
+.p3-3{
+
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.p3-3 .cj1{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.p3-3 h2 {
+    padding-left: 4rem;
+    padding-top: 4rem;
+    font-size: 4rem;
+    color: var(--a-claro);
+    text-align: start;
+    
+}
+
+.p3-3 .t1, .p3-3 .t2, .p3-3 .t3 {
+    display: flex;
+    font-size: 1.8rem;
+    color: var(--a-claro);
+    margin: 1.5rem auto;
+
+}
+.p3-3 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.p3-3 img{
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+
+/* "Onde a Cultura se Faz Presente" */
+.p3-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    color: var(--a-claro);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--a-escuro);
+    height: 90vh;
+}
+
+.p3-4 .h1 p {
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 60rem;
+}
+
+.p3-4 h1 {
+    justify-content: start;
+    padding-left: 3rem;
+    align-items: start;
+    text-align: start;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.p3-4 .imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.p3-4 .imgs .img1, .p3-4 .imgs .img2, .p3-4 .imgs .img3 {
+    text-align: center;
+    width: 30rem;
+}
+
+.p3-4 .imgs img {
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--a-claro);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p3-4 .imgs p {
+    font-size: 1.8rem;
+    color: var(--a-claro);
+    margin-top: 1rem;
+}
+
+/* Citação final */
+.p3-5 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--a-claro);
+    text-align: center;
+    height: 85vh;
+}
+
+.p3-5 p {
+    font-size: 4rem;
+    color: var(--a-escuro);
+    font-style: italic;
+    margin-bottom: 1rem;
+    width: 90rem;
+}
+
+.p3-5 span {
+    font-size: 1.8rem;
+    color: var(--a-escuro);
+}

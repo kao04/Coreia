@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Garet'; /* Nome personalizado da fonte */
+    src: url('fonts/garet.woff2') format('woff2'),
+         url('fonts/garet.woff') format('woff'),
+         url('fonts/garet.ttf') format('truetype'); /* Formatos da fonte */
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Garet', sans-serif;
+}
+
+:root {
+    --a-escuro: #050A30;
+    --a-claro: #70C2E8;
+    --texto-claro: #ffffff;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    background-color: var(--a-escuro);
+    color: var(--texto-claro);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    background-color: var(--a-escuro);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--a-claro);
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    margin: 1.5rem;
+}
+
+header a:hover {
+    color: #58b3ff;
+    transition: color 0.3s ease;
+}
+
+/* Seção de introdução (O melhor lugar é aqui) */
+.p4 {
+    background-image: url('./imgs/Sem\ nome\ \(Site\)\ \(Site\)\ \(4\).png'); /* Coloque a imagem correta aqui */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    text-align: start;
+    padding: 8rem 6rem;
+    color: var(--texto-claro);
+}
+
+.p4 h1 {
+    font-size: 6rem;
+}
+
+.p4 p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+/* Seção de pontos turísticos */
+.p4-3 {
+    display: flex;
+    align-items: center;
+    background-color: var(--a-escuro);
+    padding: 2rem;
+    text-align: center;
+}
+
+.p4-3 img {
+    justify-content: space-between;
+    gap: 7rem;
+    height: 60rem; /* Ajuste para diminuir o tamanho da imagem */
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.p4-3 p {
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: var(--a-claro);
+    margin-bottom: 2rem;
+}
+
+/* Seção Conjunto de Pontos Turísticos */
+.cojunto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+}
+
+.p4-4 h3{
+    padding: 4rem;
+font-size: 4rem;
+color: var(--a-claro);
+
+}
+.cojunto div {
+    width: 30%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cojunto img {
+    width: 100%; /* Assegura que as imagens ocupem o espaço de seu contêiner */
+    max-width: 40rem; /* Reduz o tamanho máximo para 30rem */
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cojunto strong {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--a-claro);
+}
+
+.cojunto p {
+    font-size: 1.6rem;
+    color: var(--texto-claro);
+}
