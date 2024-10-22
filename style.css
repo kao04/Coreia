@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Garet'; /* Nome personalizado da fonte */
+    src: url('fonts/garet.woff2') format('woff2'),
+         url('fonts/garet.woff') format('woff'),
+         url('fonts/garet.ttf') format('truetype'); /* Ajuste os formatos da sua fonte */
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Garet', sans-serif;
+}
+
