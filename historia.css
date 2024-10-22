@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Garet'; /* Nome personalizado da fonte */
+    src: url('fonts/garet.woff2') format('woff2'),
+         url('fonts/garet.woff') format('woff'),
+         url('fonts/garet.ttf') format('truetype'); /* Formatos da fonte */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Melhora o desempenho do carregamento da fonte */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Garet', sans-serif;
+}
+:root {
+    --a-escuro: #050A30;
+    --a-claro: #70C2E8;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+    background-color: var(--a-escuro);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--a-claro);
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    margin: 1.5rem;
+}
+
+header a:hover {
+    color: #58b3ff; /* Cor de hover */
+    transition: color 0.3s ease;
+}
+
+/* Seções principais */
+.p2 {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    background-image: url('./imgs/img2-p1.3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: start;
+    padding: 14rem 6em;
+}
+
+.p2 h1 {
+    font-size: 6rem;
+    color: var(--a-escuro);
+    margin-bottom: 1rem;
+    text-align: start;
+    text-transform: uppercase;
+    width: 70rem;
+}
+
+.p2 p {
+    font-size: 3rem;
+    color: var(--a-escuro);
+}
+
+/* Seção de conteúdo com imagem e texto (p2.2) */
+.p2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 3rem 4rem;
+    gap: 4rem;
+    background-color: var(--a-escuro);
+    padding-inline: 20rem;
+    height: 80vh;
+}
+
+.p2-2 .img {
+    text-align: center;
+}
+
+.p2-2 .img img {
+
+    height: 40rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.p2-2 .img p,
+.p2-2 .texto p {
+    font-size: 1.8rem;
+    color: var(--a-claro);
+}
+.p2-3 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    padding: 3rem 10rem;
+    background-color: var(--a-escuro);
+}
+
+.p2-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+    padding-inline: 20rem;
+    height: 80vh;
+}
+
+.p2-3 .img {
+    flex: 1;
+    text-align: center;
+}
+
+.p2-3 .img h2 {
+    text-align: start;
+    font-size: 4rem;
+    color: var(--a-claro);
+    margin-bottom: 2.5rem;
+}
+
+.p2-3 .img img {
+    max-height: 60rem;
+    width: 50rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.p2-3 .texto {
+    color: var(--a-claro);
+}
+
+.p2-3 .texto p {
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.p2-3 .texto p {
+    font-size: 2rem;
+    color: var(--a-claro);
+}
+
+.p2-3 .texto strong {
+    font-size: 3.5rem;
+    color: var(--a-claro);
+}
