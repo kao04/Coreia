@@ -114,8 +114,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap; /* Flexível para responsividade */
-    gap: 2rem; /* Espaço entre elementos */
+    gap: 2rem; 
 }
 
 .p1-3 h2 {
@@ -144,8 +143,8 @@ header a:hover {
     flex-direction: column;
     text-align: center;
     padding: 0.2rem;
-    font-size: 1.6rem; /* Mesmo tamanho para todos os textos */
+    font-size: 1.6rem; 
     color: var(--a-claro);
-    width: 100%; /* Assegura que o texto fique abaixo da imagem e centralizado */
-    margin-top: 1rem; /* Espaçamento entre a imagem e o texto */
+    width: 100%; 
+    margin-top: 1rem; 
 }
