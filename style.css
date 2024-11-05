@@ -59,7 +59,7 @@ header a:hover {
 }
 
 .p1 h1 {
-    font-size: 6rem;
+    font-size: 8rem;
     color: var(--a-claro);
     text-transform: uppercase;
     margin-bottom: 2.5rem;
@@ -126,9 +126,6 @@ header a:hover {
 }
 
 .p1-3 img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 20rem;
     border-radius: 30rem 30rem 0 0;
     border: 4px solid var(--a-claro);
@@ -137,14 +134,16 @@ header a:hover {
 /* Ajuste do texto para as últimas 3 imagens */
 .p1-3 p,
 .p1-3 strong {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
     padding: 0.2rem;
+    text-align: center;
     font-size: 1.6rem; 
     color: var(--a-claro);
     width: 100%; 
     margin-top: 1rem; 
+}
+
+.cj div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

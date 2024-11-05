@@ -16,7 +16,8 @@
 
 :root {
     --a-escuro: #050A30;
-    --a-claro: #70C2E8;
+    --a-claro: #ecfaff;
+    --a-medio: #70C2E8;
     font-size: 62.5%; /* 1rem = 10px */
 }
 
@@ -55,7 +56,7 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--a-claro);
+    color: var(--a-escuro);
 }
 
 .p3 h1 {
@@ -89,11 +90,14 @@ header a:hover {
 }
 
 /* Seção do K-pop */
-.p3-3{
-
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+.p3-3 {
+    background-image: url('./imgs/img2-p3-3.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 4rem; 
+    color: var(--a-claro); 
+    height: 100vh;
 }
 
 .p3-3 .cj1{
@@ -113,24 +117,20 @@ header a:hover {
     
 }
 
+.p3-3 h2, .p3-3 p {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem;
+    border-radius: 5px;
+    color: white; 
+}
+
 .p3-3 .t1, .p3-3 .t2, .p3-3 .t3 {
     display: flex;
     font-size: 1.8rem;
     color: var(--a-claro);
     margin: 1.5rem auto;
+    margin-top: 50vh;
 
-}
-.p3-3 .img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.p3-3 img{
-    justify-content: center;
-    align-items: center;
-    height: 40rem;
 }
 
 /* "Onde a Cultura se Faz Presente" */
